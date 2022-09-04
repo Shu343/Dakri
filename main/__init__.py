@@ -10,7 +10,7 @@ app = Client(
   )
 app.start()
 
-print("[INFO]: STARTING Lib Torrent CLIENT")
+print("[INFO]: STARTING Lib CLIENT")
 ses = lt.session()
 ses.listen_on(6881, 6891)
 
