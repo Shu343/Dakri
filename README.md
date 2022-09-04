@@ -32,7 +32,7 @@
 * `BOT_TOKEN` - Get this from @BotFather
 * `MONGO_DB_URI` - Get this from cloud.mongodb.com
 * `INDEX_ID` - ID of your Index Channel
-> Index Channel : The Channel Where Links Of All The Uploaded Animes Will Be Given
+> Index Channel : The Chanel Where Links Of All The Uploaded Animes Will Be Given
 * `UPLOADS_ID` - ID of your Uploads Channel
 > Uploads Channel : The Channel Where All The Animes Files Will Be Uploaded 
 * `STATUS_ID` - ID of the message in your Uploads Channel where the status of bot will be showed
