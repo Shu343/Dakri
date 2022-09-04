@@ -27,7 +27,7 @@ async def downloader(message: Message, link: str,total,name):
 
   trgt = str(handle.name())
 
-  while (handle.status().state != lt.torrent_status.seeding):
+  while (handle.status().state != lt.tor_status.seeding):
     
     s = handle.status()
     
