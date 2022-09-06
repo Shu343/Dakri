@@ -18,12 +18,12 @@ async def downloader(message: Message, link: str,total,name):
   ses.start_dht()
 
   r = message
-  await r.edit('Starting process...')
+  await r.edit('Downloading Metadata...')
     
   while (not handle.has_metadata()):    
     await asyncio.sleep(1)
 
-  await r.edit(f'Found Metadata, Starting Download Of **{str(name)}**...')
+  await r.edit(f'Got Metadata, Starting Download Of **{str(name)}**...')
 
   trgt = str(handle.name())
 
