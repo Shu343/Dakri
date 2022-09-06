@@ -30,6 +30,7 @@ async def upload_video(msg: Message,file,id,tit,name,ttl):
                 UPLOADS_ID,
             file,
             caption=caption,
+            reply_markup=buttons,
             duration=duration,
             width=w,
             height=h,
