@@ -29,10 +29,10 @@ async def tg_handler():
                 await status.edit(await status_text(f"Adding Links To Index Channel ({INDEX_USERNAME})..."),reply_markup=button1)
                 await channel_handler(val,id,name,ep_num, video)
 
-                await status.edit(await status_text("Shut down For 300sec..."),reply_markup=button1)
+                await status.edit(await status_text("Sleeping For 5 Minutes..."),reply_markup=button1)
                 await asyncio.sleep(300)
             else:                
-                if "Starting..." in status.text:
+                if "Idle..." in status.text:
                     try:
                         await status.edit(await status_text("Idle..."),reply_markup=button1)
                     except:
