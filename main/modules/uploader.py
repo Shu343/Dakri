@@ -34,7 +34,6 @@ async def upload_video(msg: Message,file,id,tit,name,ttl):
             width=w,
             height=h,
             thumb=thumbnail,
-            reply_markup=buttons,
             file_name=os.path.basename(file),
             progress=progress_for_pyrogram,
             progress_args=(
